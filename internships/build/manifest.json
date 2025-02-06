@@ -1,0 +1,39 @@
+{
+  "short_name": "Internships",
+  "name": "Internship Opportunities Portal",
+  "icons": [
+    {
+      "src": "/internships/image26.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/internships/image26.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/internships/favicon.svg",
+      "sizes": "48x48 72x72 96x96 128x128 256x256",
+      "type": "image/svg+xml",
+      "purpose": "monochrome"
+    }
+  ],
+  "start_url": "/internships/",
+  "scope": "/internships/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Discover and apply for tech internships worldwide",
+  "orientation": "portrait-primary",
+  "categories": ["education", "technology", "jobs"],
+  "screenshots": [
+    {
+      "src": "/internships/image26.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    }
+  ]
+}

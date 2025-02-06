@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "builds": [
+    {
+      "src": "FRONTEND/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tech.html",
+      "destination": "/roadmap",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/roadmap",
+      "destination": "/tech.html"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/internships/static/(.*)",
+      "destination": "/internships/static/$1"
+    },
+    {
+      "source": "/internships/([^/]+)\\.(js|css|map|ico|json)",
+      "destination": "/internships/$1.$2"
+    },
+    {
+      "source": "/internships/(.*)",
+      "destination": "/internships/index.html"
+    }
+  ]
+}
