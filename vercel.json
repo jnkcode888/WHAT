@@ -3,7 +3,7 @@
   "cleanUrls": true,
   "builds": [
     {
-      "src": "FRONTEND/**/*",
+      "src": "**/*",
       "use": "@vercel/static"
     }
   ],
